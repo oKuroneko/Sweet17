@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+/* Custom left-to-right fade animation for the MediaManager drawer */
+@keyframes fadeInLeft {
+  from {
+    transform: translateX(100%);
+    opacity: 0.8;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-left {
+  animation: fadeInLeft 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
