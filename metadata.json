@@ -1,0 +1,6 @@
+{
+  "name": "Sweet Seventeen Gisca",
+  "description": "Website ucapan selamat ulang tahun ke-17 untuk Gisca dengan tema pink soft, awan Jepang kuno, album foto kenangan, dan pemutar video.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
